@@ -1,4 +1,4 @@
-# $Id: Makefile.PL,v 1.1.1.1 2004/01/12 14:14:33 comdog Exp $
+# $Id: Makefile.PL,v 1.2 2004/02/07 20:15:58 comdog Exp $
 use ExtUtils::MakeMaker;
 
 sub ExtUtils::MM_Any::test_via_harness
@@ -12,7 +12,7 @@ sub ExtUtils::MM_Any::test_via_harness
 
 WriteMakefile(
 		'NAME'      => 'scriptdist',
-        'VERSION'   => '0.10',
+        'VERSION'   => '0.11',
 
         'EXE_FILES' =>  [ 'scriptdist' ],
             

@@ -1,3 +1,6 @@
-# $Id: Changes,v 1.1.1.1 2004/01/12 14:14:33 comdog Exp $
+# $Id: Changes,v 1.2 2004/01/12 14:24:52 comdog Exp $
 0.10 - Mon Jan 12 16:45:56 2004
 	+ initial distribution created with scriptdist
+0.10 - Mon Jan 12 09:24:28 2004
+* this is the first release, a trial version
+
