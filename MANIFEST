@@ -1,3 +1,4 @@
+# $Id: MANIFEST,v 1.4 2004/02/11 01:20:49 comdog Exp $
 Changes
 MANIFEST			This list of files
 Makefile.PL
@@ -5,5 +6,10 @@ scriptdist
 t/compile.t
 t/pod.t
 t/prereq.t
+t/run.t
 t/test_manifest
+t/test_home_dir/test_script
+t/test_home_dir/.scriptdistrc
+t/test_home_dir/.scriptdist/INSTALL
+t/test_home_dir/.scriptdist/Makefile.PL
 META.yml                                 Module meta-data (added by MakeMaker)
