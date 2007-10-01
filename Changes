@@ -1,8 +1,13 @@
-# $Id: Changes,v 1.4 2004/02/22 06:18:09 comdog Exp $
+# $Id: Changes 1411 2004-09-03 01:42:10Z comdog $
 0.10 - Mon Jan 12 16:45:56 2004
 	+ initial distribution created with scriptdist
 0.10 - Mon Jan 12 09:24:28 2004
 * this is the first release, a trial version
+
+0.14 - Thu Sep  2 20:41:33 2004
+* fixed a problem with the prereq.t test
+* cleaned up the distro
+* you don't need to upgrade if you already have this script
 
 0.13 - Sun Feb 22 01:22:42 2004
 	* don't look in CVS or Subversion directories for templates

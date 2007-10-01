@@ -1,4 +1,4 @@
-# $Id: compile.t,v 1.2 2004/02/11 01:17:15 comdog Exp $
+# $Id: compile.t 2315 2007-09-24 19:16:55Z comdog $
 
 use Test::More tests => 1;
 
@@ -6,7 +6,7 @@ my $file = "blib/script/scriptdist";
 
 print "bail out! Script file is missing!" unless -e $file;
 
-my $output = `perl -c $file 2>&1`;
+my $output = `$^X -c $file 2>&1`;
 
 print "bail out! Script file is missing!" unless
 	like( $output, qr/syntax OK$/, 'script compiles' );
