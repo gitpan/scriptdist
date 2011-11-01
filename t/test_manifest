@@ -1,6 +1,4 @@
-# $Id: test_manifest 2319 2007-10-01 21:13:53Z comdog $
 compile.t
 pod.t
 pod_coverage.t
-prereq.t
 run.t

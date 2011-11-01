@@ -1,5 +1,6 @@
-# $Id: Makefile.PL 2319 2007-10-01 21:13:53Z comdog $
 use ExtUtils::MakeMaker;
+
+require 5.010;
 
 eval "use Test::Manifest 1.14";
 
@@ -9,7 +10,7 @@ WriteMakefile(
 	'NAME'      => $script_name,
 	'ABSTRACT'  => 'Make a Perl dist around a script',
 
-	'VERSION'   => '0.15',
+	'VERSION'   => '0.21',
 	'LICENSE'   => 'perl',
 	'AUTHOR'    => 'brian d foy <bdfoy@cpan.org>',
 

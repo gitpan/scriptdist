@@ -1,5 +1,3 @@
-# $Id: run.t 2319 2007-10-01 21:13:53Z comdog $
-
 use Test::More tests => 43;
 
 use Cwd;
