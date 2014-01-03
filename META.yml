@@ -21,4 +21,4 @@ requires:
   Test::More: 0.95
 resources:
   repository: https://github.com/briandfoy/scriptdist
-version: 0.22
+version: 0.23
